@@ -1,0 +1,270 @@
+TABLEAU_VERSION: 2024.2.12
+TABLEAU_DOWNLOAD_URL: https://downloads.tableau.com/esdalt/2024.2.12/tableau-server-2024-2-12.x86_64.rpm
+TABLEAU_INSTALLER: /u01/app/tableau/ /u01/app/tableau-server-2024-2-12.x86_64.rpm
+Last metadata expiration check: 0:35:26 ago on Tue 04 Nov 2025 07:11:57 AM PST.
+Package gdb-8.2-20.0.2.el8.x86_64 is already installed.
+Dependencies resolved.
+========================================================================================
+ Package              Arch    Version                               Repository      Size
+========================================================================================
+Reinstalling:
+ automake             noarch  1.16.1-8.el8                          ol8_appstream  713 k
+ intltool             noarch  0.51.0-11.el8                         ol8_appstream   66 k
+ perl-DBI             x86_64  1.641-4.module+el8.6.0+20590+70c0920f ol8_appstream  740 k
+ perl-IO-Socket-SSL   noarch  2.066-4.module+el8.6.0+20623+f0897f98 ol8_appstream  298 k
+
+Transaction Summary
+========================================================================================
+
+Total download size: 1.8 M
+Installed size: 4.3 M
+Is this ok [y/N]: Operation aborted.
+Last metadata expiration check: 0:38:00 ago on Tue 04 Nov 2025 07:11:57 AM PST.
+KeyboardInterrupt: Terminated.
+Last metadata expiration check: 0:38:08 ago on Tue 04 Nov 2025 07:11:57 AM PST.
+Package redhat-lsb-core-4.1-47.0.1.el8.x86_64 is already installed.
+Dependencies resolved.
+========================================================================================
+ Package              Arch    Version                               Repository      Size
+========================================================================================
+Reinstalling:
+ automake             noarch  1.16.1-8.el8                          ol8_appstream  713 k
+ intltool             noarch  0.51.0-11.el8                         ol8_appstream   66 k
+ perl-DBI             x86_64  1.641-4.module+el8.6.0+20590+70c0920f ol8_appstream  740 k
+ perl-IO-Socket-SSL   noarch  2.066-4.module+el8.6.0+20623+f0897f98 ol8_appstream  298 k
+
+Transaction Summary
+========================================================================================
+
+Total download size: 1.8 M
+Installed size: 4.3 M
+Is this ok [y/N]: Operation aborted.
+Step 1 failed. Exiting.
+TABLEAU_VERSION: 2024.2.12
+TABLEAU_DOWNLOAD_URL: https://downloads.tableau.com/esdalt/2024.2.12/tableau-server-2024-2-12.x86_64.rpm
+TABLEAU_INSTALLER: /u01/app/tableau/ /u01/app/tableau-server-2024-2-12.x86_64.rpm
+Last metadata expiration check: 0:41:32 ago on Tue 04 Nov 2025 07:11:57 AM PST.
+Package gdb-8.2-20.0.2.el8.x86_64 is already installed.
+Dependencies resolved.
+========================================================================================
+ Package              Arch    Version                               Repository      Size
+========================================================================================
+Reinstalling:
+ automake             noarch  1.16.1-8.el8                          ol8_appstream  713 k
+ intltool             noarch  0.51.0-11.el8                         ol8_appstream   66 k
+ perl-DBI             x86_64  1.641-4.module+el8.6.0+20590+70c0920f ol8_appstream  740 k
+ perl-IO-Socket-SSL   noarch  2.066-4.module+el8.6.0+20623+f0897f98 ol8_appstream  298 k
+
+Transaction Summary
+========================================================================================
+
+Total download size: 1.8 M
+Installed size: 4.3 M
+Downloading Packages:
+(1/4): intltool-0.51.0-11.el8.noarch.rpm        1.4 MB/s |  66 kB     00:00
+(2/4): automake-1.16.1-8.el8.noarch.rpm          12 MB/s | 713 kB     00:00
+(3/4): perl-DBI-1.641-4.module+el8.6.0+20590+70  11 MB/s | 740 kB     00:00
+(4/4): perl-IO-Socket-SSL-2.066-4.module+el8.6.  14 MB/s | 298 kB     00:00
+--------------------------------------------------------------------------------
+Total                                            23 MB/s | 1.8 MB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1
+  Reinstalling     : automake-1.16.1-8.el8.noarch                           1/8
+  Reinstalling     : intltool-0.51.0-11.el8.noarch                          2/8
+  Reinstalling     : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   3/8
+  Reinstalling     : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   4/8
+  Cleanup          : intltool-0.51.0-11.el8.noarch                          5/8
+  Cleanup          : automake-1.16.1-8.el8.noarch                           6/8
+  Cleanup          : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   7/8
+  Cleanup          : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   8/8
+  Running scriptlet: perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   8/8
+  Verifying        : automake-1.16.1-8.el8.noarch                           1/8
+  Verifying        : automake-1.16.1-8.el8.noarch                           2/8
+  Verifying        : intltool-0.51.0-11.el8.noarch                          3/8
+  Verifying        : intltool-0.51.0-11.el8.noarch                          4/8
+  Verifying        : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   5/8
+  Verifying        : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   6/8
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   7/8
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   8/8
+
+Reinstalled:
+  automake-1.16.1-8.el8.noarch
+  intltool-0.51.0-11.el8.noarch
+  perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_64
+  perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f0897f98.noarch
+
+Complete!
+Last metadata expiration check: 0:41:51 ago on Tue 04 Nov 2025 07:11:57 AM PST.
+Package chrpath-0.16-7.el8.x86_64 is already installed.
+Dependencies resolved.
+========================================================================================
+ Package              Arch    Version                               Repository      Size
+========================================================================================
+Reinstalling:
+ automake             noarch  1.16.1-8.el8                          ol8_appstream  713 k
+ intltool             noarch  0.51.0-11.el8                         ol8_appstream   66 k
+ perl-DBI             x86_64  1.641-4.module+el8.6.0+20590+70c0920f ol8_appstream  740 k
+ perl-IO-Socket-SSL   noarch  2.066-4.module+el8.6.0+20623+f0897f98 ol8_appstream  298 k
+
+Transaction Summary
+========================================================================================
+
+Total download size: 1.8 M
+Installed size: 4.3 M
+Downloading Packages:
+(1/4): automake-1.16.1-8.el8.noarch.rpm          13 MB/s | 713 kB     00:00
+(2/4): intltool-0.51.0-11.el8.noarch.rpm        1.0 MB/s |  66 kB     00:00
+(3/4): perl-IO-Socket-SSL-2.066-4.module+el8.6.  10 MB/s | 298 kB     00:00
+(4/4): perl-DBI-1.641-4.module+el8.6.0+20590+70 7.9 MB/s | 740 kB     00:00
+--------------------------------------------------------------------------------
+Total                                            17 MB/s | 1.8 MB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1
+  Reinstalling     : automake-1.16.1-8.el8.noarch                           1/8
+  Reinstalling     : intltool-0.51.0-11.el8.noarch                          2/8
+  Reinstalling     : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   3/8
+  Reinstalling     : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   4/8
+  Cleanup          : intltool-0.51.0-11.el8.noarch                          5/8
+  Cleanup          : automake-1.16.1-8.el8.noarch                           6/8
+  Cleanup          : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   7/8
+  Cleanup          : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   8/8
+  Running scriptlet: perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   8/8
+  Verifying        : automake-1.16.1-8.el8.noarch                           1/8
+  Verifying        : automake-1.16.1-8.el8.noarch                           2/8
+  Verifying        : intltool-0.51.0-11.el8.noarch                          3/8
+  Verifying        : intltool-0.51.0-11.el8.noarch                          4/8
+  Verifying        : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   5/8
+  Verifying        : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   6/8
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   7/8
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   8/8
+
+Reinstalled:
+  automake-1.16.1-8.el8.noarch
+  intltool-0.51.0-11.el8.noarch
+  perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_64
+  perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f0897f98.noarch
+
+Complete!
+Last metadata expiration check: 0:42:08 ago on Tue 04 Nov 2025 07:11:57 AM PST.
+Package redhat-lsb-core-4.1-47.0.1.el8.x86_64 is already installed.
+Dependencies resolved.
+========================================================================================
+ Package              Arch    Version                               Repository      Size
+========================================================================================
+Reinstalling:
+ automake             noarch  1.16.1-8.el8                          ol8_appstream  713 k
+ intltool             noarch  0.51.0-11.el8                         ol8_appstream   66 k
+ perl-DBI             x86_64  1.641-4.module+el8.6.0+20590+70c0920f ol8_appstream  740 k
+ perl-IO-Socket-SSL   noarch  2.066-4.module+el8.6.0+20623+f0897f98 ol8_appstream  298 k
+
+Transaction Summary
+========================================================================================
+
+Total download size: 1.8 M
+Installed size: 4.3 M
+Downloading Packages:
+(1/4): intltool-0.51.0-11.el8.noarch.rpm        1.5 MB/s |  66 kB     00:00
+(2/4): automake-1.16.1-8.el8.noarch.rpm          12 MB/s | 713 kB     00:00
+(3/4): perl-DBI-1.641-4.module+el8.6.0+20590+70  10 MB/s | 740 kB     00:00
+(4/4): perl-IO-Socket-SSL-2.066-4.module+el8.6. 9.0 MB/s | 298 kB     00:00
+--------------------------------------------------------------------------------
+Total                                            21 MB/s | 1.8 MB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1
+  Reinstalling     : automake-1.16.1-8.el8.noarch                           1/8
+  Reinstalling     : intltool-0.51.0-11.el8.noarch                          2/8
+  Reinstalling     : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   3/8
+  Reinstalling     : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   4/8
+  Cleanup          : intltool-0.51.0-11.el8.noarch                          5/8
+  Cleanup          : automake-1.16.1-8.el8.noarch                           6/8
+  Cleanup          : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   7/8
+  Cleanup          : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   8/8
+  Running scriptlet: perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   8/8
+  Verifying        : automake-1.16.1-8.el8.noarch                           1/8
+  Verifying        : automake-1.16.1-8.el8.noarch                           2/8
+  Verifying        : intltool-0.51.0-11.el8.noarch                          3/8
+  Verifying        : intltool-0.51.0-11.el8.noarch                          4/8
+  Verifying        : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   5/8
+  Verifying        : perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_6   6/8
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   7/8
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   8/8
+
+Reinstalled:
+  automake-1.16.1-8.el8.noarch
+  intltool-0.51.0-11.el8.noarch
+  perl-DBI-1.641-4.module+el8.6.0+20590+70c0920f.x86_64
+  perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f0897f98.noarch
+
+Complete!
+Step 1 completed successfully.
+Installing Tableau Server version 2024.2.12...
+Verifying...                          ########################################
+Preparing...                          ########################################
+
+Your hardware meets the minimum requirements for a trial of Tableau Server.
+If you plan to run Tableau Server in a production environment, we recommend the following hardware specifications: http://www.tableau.com/products/server/specs
+Tableau Server runs best with at least 128 GB memory, but found only 57 GB of memory.
+
+Updating / installing...
+tableau-server-20242.25.0623.1428-2024########################################
+
+If this is a single node or initial node installation, run:
+
+    sudo /u01/app/tableau/packages/scripts.20242.25.0623.1428/initialize-tsm --accepteula
+
+to continue setting up Tableau Server. If this installation is part of a multi-node configuration,
+see the online documentation for installing Tableau Server on additional nodes.
+
+
+Detected that Tableau Server is manually installed in a non-default location:
+
+    /u01/app/tableau
+
+Be sure that Tableau Server's dependencies are installed before proceeding.
+To list the dependencies, run:
+
+     rpm -qR tableau-server-20242.25.0623.1428
+
+Step 2 completed successfully.
+Captured Line:     sudo /u01/app/tableau/packages/scripts.20242.25.0623.1428/initialize-tsm --accepteula
+Step 3 completed successfully.
+Upgrading Tableau Server...
+Executing     sudo /u01/app/tableau/packages/scripts.20242.25.0623.1428/initialize-tsm --accepteula -d /u01/app/tableau/tableauserver -f
+Tableau Server requires at least 64 GB memory to run, but found only 57 GB of memory.
+See: http://www.tableau.com/products/server/specs
+Creating 'tsmadmin' group for TSM admin authorization
+Creating 'tableau' unprivileged user account
+Creating environment file...
+Creating directories and setting permissions...
+Using '/u01/app/tableau/tableauserver' as the data directory.
+Adding user 'tdev' to group 'tableau'...
+Adding user 'tdev' to group 'tsmadmin'...
+Added. Note: These group membership changes do not take effect in shells already open. For these to take effect, log out of the shell and log back in.
+mount found at : /u01
+Starting TSM services...
+Updating repository version in Tableau Server Coordination Service.
+TSM services started successfully
+Use the 'tsm' command to continue setting up Tableau Server.
+>> Tableau binary directory will be added to PATH for new shells. To get the
+>> updated path, either start a new session, or for bash users run:
+>> source /etc/profile.d/tableau_server.sh
+The TSM administrative web interface (and REST API) is now available at
+https://sv2lxtabapst101:8850
+You can continue the configuration and initialization of Tableau server using either the TSM command line interface,
+or the web interface.
+You will be prompted to authenticate, or can log in using the username 'tdev', with the same password you used to log into this session. You could also use any username, with its password, from the administrative group in the domain.
+Done.
+Step 4 completed successfully.
+Installed Tableau Server 2024.2.12 successfully on 2025.11.04.
