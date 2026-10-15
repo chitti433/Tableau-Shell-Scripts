@@ -1,0 +1,107 @@
+[2025.11.06] Starting Tableau product key activation...
+License key activated.
+[2025.11.06] Tableau product key activated successfully.
+--- Tableau Registration Template Automation ---
+1. Downloading template to register.json...
+   Template file created/verified.
+2. Applying automated field updates to register.json...
+3. Successfully updated all fields. The new content is:
+{
+  "first_name": "Rajesh",
+  "last_name": "Kothuru",
+  "phone": "8186899912",
+  "email": "rak@equinix.com",
+  "company": "Equinix",
+  "industry": "Technology",
+  "company_employees": "1000+",
+  "department": "IT Operations",
+  "title": "Cloud Engineer",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98101",
+  "country": "United States",
+  "opt_in": "false",
+  "eula": "accept"
+}
+4. Submitting registration...
+Registration complete.
+--- Registration completed successfully. ---
+--- Tableau Configuration Import Automation ---
+5. Creating configuration file at configuration.json with identityStore configuration...
+   configuration.json created successfully. Content:
+{
+  "configEntities": {
+    "identityStore": {
+       "_type": "identityStoreType",
+       "type": "local"
+     }
+   }
+}
+6. Importing settings using 'tsm settings import -f configuration.json'...
+Configuration file read from /u01/app/scripts/configuration.json. The configuration file does not include the runas username and password. After importing, these values must be set explicitly.
+   [SIMULATING TSM COMMAND] tsm settings import -f configuration.json
+7. TSM settings imported successfully.
+--- Tableau Server Final Configuration and Initialization ---
+8. Setting configuration key 'install.component.samples' to 'true'...
+   [SIMULATING TSM COMMAND] tsm configuration set -k install.component.samples -v true
+8. Applying pending configuration changes. This step can take a moment...
+Starting deployments asynchronous job.
+Job id is '0', timeout is 10 minutes.
+9% - Retrieving the topology to deploy.
+18% - Retrieving the configuration to deploy.
+27% - Validating the new topology.
+36% - Determining if server needs to be started.
+45% - Disabling all services.
+54% - Waiting for the services to stop.
+63% - Updating nodes to new topology.
+72% - Waiting for topology to be applied.
+81% - Updating nodes to new configuration.
+90% - Reconfiguring services.
+100% - Waiting for services to reconfigure.
+Successfully deployed nodes with updated configuration and topology version.
+   [SIMULATING TSM COMMAND] tsm pending-changes apply
+   Pending changes applied successfully.
+9. Initializing and starting Tableau Server. This is the longest step (up to 30 minutes)...
+Initializing the server...
+Job id is '1', timeout is 30 minutes.
+2% - Checking control plane services.
+4% - Validating that there are no pending changes.
+7% - Setting the default identity services tables.
+9% - Generating new asset key.
+12% - Saving asset key.
+14% - Generating passwords.
+17% - Generating secret keys.
+19% - Generating apigateway mutual SSL certificates.
+21% - Generating Apache Gateway Internal mutual SSL certificates.
+24% - Generating Unique Cluster Identifier.
+26% - Generating Index And Search Server SSL certificate.
+29% - Generating ActiveMQ Server SSL certificate.
+31% - Generating internal Metadata API mutual SSL certificates.
+34% - Generating key store.
+36% - Generating Hyper SSL certificate.
+39% - Generating TSIG logs service SSL certificate.
+41% - Promoting configuration.
+43% - Waiting for services to reconfigure.
+46% - Initializing the topology.
+48% - Waiting for the maintenance app to start.
+51% - Initializing the temporary database instance.
+53% - Starting the temporary database instance.
+56% - Creating roles and databases.
+58% - Running migrations.
+60% - Localizing the default projects.
+63% - Stopping the temporary database instance.
+65% - Making the temporary database default.
+68% - Initializing the next active repository.
+70% - Enabling services needed for server initialization.
+73% - Connecting to the Backup/Restore service.
+75% - Saving asset key metadata.
+78% - Connecting to the Backup/Restore service.
+80% - Initializing Index And Search Server.
+82% - Finalizing the topology.
+85% - Connecting to Vizportal Maintenance.
+87% - Rebuilding the search index.
+100% - Finalizing the initialization.
+
+Server was initialized successfully.
+   [SIMULATING TSM COMMAND] tsm initialize --start-server --request-timeout 1800
+Tableau Server initialization complete and server started!
