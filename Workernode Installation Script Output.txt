@@ -1,0 +1,156 @@
+TABLEAU_VERSION: 2025.1.2
+TABLEAU_INSTALLER: /u01/app/tableau/ /u01/app/tableau-server-2025-1-2.x86_64.rpm
+Last metadata expiration check: 3:31:40 ago on Tue 06 Jan 2026 06:05:18 AM PST.
+Package gdb-8.2-20.0.2.el8.x86_64 is already installed.
+Dependencies resolved.
+========================================================================================
+ Package              Arch    Version                               Repository      Size
+========================================================================================
+Reinstalling:
+ perl-IO-Socket-SSL   noarch  2.066-4.module+el8.6.0+20623+f0897f98 OL8_AppStream  298 k
+
+Transaction Summary
+========================================================================================
+
+Total download size: 298 k
+Installed size: 604 k
+Downloading Packages:
+perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623 6.8 MB/s | 298 kB     00:00
+--------------------------------------------------------------------------------
+Total                                           6.4 MB/s | 298 kB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1
+  Reinstalling     : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   1/2
+  Cleanup          : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   2/2
+  Running scriptlet: perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   2/2
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   1/2
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   2/2
+
+Reinstalled:
+  perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f0897f98.noarch
+
+Complete!
+Last metadata expiration check: 3:31:48 ago on Tue 06 Jan 2026 06:05:18 AM PST.
+Package chrpath-0.16-7.el8.x86_64 is already installed.
+Dependencies resolved.
+========================================================================================
+ Package              Arch    Version                               Repository      Size
+========================================================================================
+Reinstalling:
+ perl-IO-Socket-SSL   noarch  2.066-4.module+el8.6.0+20623+f0897f98 OL8_AppStream  298 k
+
+Transaction Summary
+========================================================================================
+
+Total download size: 298 k
+Installed size: 604 k
+Downloading Packages:
+perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623 8.2 MB/s | 298 kB     00:00
+--------------------------------------------------------------------------------
+Total                                           7.7 MB/s | 298 kB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1
+  Reinstalling     : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   1/2
+  Cleanup          : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   2/2
+  Running scriptlet: perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   2/2
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   1/2
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   2/2
+
+Reinstalled:
+  perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f0897f98.noarch
+
+Complete!
+Last metadata expiration check: 3:31:55 ago on Tue 06 Jan 2026 06:05:18 AM PST.
+Package redhat-lsb-core-4.1-47.0.1.el8.x86_64 is already installed.
+Dependencies resolved.
+========================================================================================
+ Package              Arch    Version                               Repository      Size
+========================================================================================
+Reinstalling:
+ perl-IO-Socket-SSL   noarch  2.066-4.module+el8.6.0+20623+f0897f98 OL8_AppStream  298 k
+
+Transaction Summary
+========================================================================================
+
+Total download size: 298 k
+Installed size: 604 k
+Downloading Packages:
+perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623 7.5 MB/s | 298 kB     00:00
+--------------------------------------------------------------------------------
+Total                                           6.9 MB/s | 298 kB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1
+  Reinstalling     : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   1/2
+  Cleanup          : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   2/2
+  Running scriptlet: perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   2/2
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   1/2
+  Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f089   2/2
+
+Reinstalled:
+  perl-IO-Socket-SSL-2.066-4.module+el8.6.0+20623+f0897f98.noarch
+
+Complete!
+Step 1 completed successfully.
+Installing Tableau Server version 2025.1.2...
+Verifying...                          ########################################
+Preparing...                          ########################################
+
+Your hardware meets the minimum requirements for a trial of Tableau Server.
+If you plan to run Tableau Server in a production environment, we recommend the following hardware specications: http://www.tableau.com/products/server/specs
+Tableau Server runs best with at least 128 GB memory, but found only 63 GB of memory.
+
+Updating / installing...
+tableau-server-20251.25.0520.1026-2025########################################
+
+If this is a single node or initial node installation, run:
+
+    sudo /u01/app/tableau/packages/scripts.20251.25.0520.1026/initialize-tsm --accepteula
+
+to continue setting up Tableau Server. If this installation is part of a multi-node configuration,
+see the online documentation for installing Tableau Server on additional nodes.
+
+
+Detected that Tableau Server is manually installed in a non-default location:
+
+    /u01/app/tableau
+
+Be sure that Tableau Server's dependencies are installed before proceeding.
+To list the dependencies, run:
+
+     rpm -qR tableau-server-20251.25.0520.1026
+
+Step 2 completed successfully.
+--- Tableau Worker Node Installation Automation ---
+i). Checking for bootstrap file at /u01/app/bootstrap.json...
+   Bootstrap file found.
+ii). Changing directory to /u01/app/tableau/packages/scripts.20251.25.0520.1026...
+iii). Executing initialize-tsm to join the cluster...
+   Running: sudo ./initialize-tsm -b /u01/app/bootstrap.json --accepteula -d /u01/app/tableau/tableauserr/ -f
+Creating 'tsmadmin' group for TSM admin authorization
+Creating 'tableau' unprivileged user account
+Creating environment file...
+Creating directories and setting permissions...
+Using '/u01/app/tableau/tableauserver' as the data directory.
+Adding user 'tdev' to group 'tableau'...
+Adding user 'tdev' to group 'tsmadmin'...
+Added. Note: These group membership changes do not take effect in shells already open. For these to takeffect, log out of the shell and log back in.
+mount found at : /u01
+Calling node installer...
+Node installed successfully
+Use the 'tsm' command on the controller node to configure services.
+Done.
+   [SIMULATING INSTALLATION] Please wait (simulated 5 seconds)...
+--- Worker Node installation successfully completed and joined the cluster! ---
+Step 3 completed successfully.
